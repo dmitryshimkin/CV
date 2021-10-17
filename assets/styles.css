@@ -1,0 +1,280 @@
+BODY {
+  margin: 0;
+
+  color: rgba(0,0,0, 0.9);
+  cursor: default;
+  font-family: -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  -webkit-print-color-adjust: exact;
+}
+
+a,
+a:visited {
+  color: rgb(0, 0, 238);
+}
+
+section {
+  margin: 0 0 24px 0;
+}
+
+p {
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+ul {
+  margin: 0 0 12px;
+  padding: 0 0 0 16px;
+}
+
+p + ul {
+  margin-top: -8px;
+}
+
+
+/**
+ * --------------------------------------------------------
+ * Page
+ * --------------------------------------------------------
+ */
+
+.page {
+  padding: 32px 0;
+  page-break-after: always;
+}
+
+/**
+ * --------------------------------------------------------
+ * Header
+ * --------------------------------------------------------
+ */
+
+header {
+  display: flex;
+  margin: 0 0 24px;
+  padding: 0 48px;
+}
+
+.avatar {
+  flex: 0 0 140px;
+  margin: -4px 24px 0 -20px;
+}
+
+.avatar img {
+  display: block;
+  height: 140px;
+  overflow: hidden;
+  width: 140px;
+  border-radius: 50%;
+}
+
+#main-info {
+  flex: 1 1 auto;
+  padding: 0 0 0 12px;
+}
+
+#main-info h1 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#main-info h2 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+#main-info .at {
+  display: inline-block;
+  margin-left: -24px;
+  vertical-align: baseline;
+  width: 24px;
+
+  color: #999;
+  font-style: italic;
+}
+
+
+/**
+ * --------------------------------------------------------
+ * Contacts
+ * --------------------------------------------------------
+ */
+
+#contacts {
+  box-sizing: border-box;
+  flex: 0 0 240px;
+  float: right;
+  overflow: hidden;
+  padding: 10px 0 0 20px;
+
+  border-radius: 5px;
+  width: 240px;
+}
+
+#contacts p {
+  line-height: 1.7;
+}
+
+#contacts .phone-plus {
+  display: inline-block;
+  margin-left: -14px;
+  position: relative;
+  top: -1px;
+  vertical-align: baseline;
+  width: 14px;
+}
+
+.github-logo {
+  background: url(GitHub-Mark-32px.png) no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 16px;
+  margin: 0 4px 0 -20px;
+  position: relative;
+  top: 3px;
+  vertical-align: baseline;
+  width: 16px;
+}
+
+/**
+ * --------------------------------------------------------
+ * Main content
+ * --------------------------------------------------------
+ */
+
+main {
+  padding: 0 48px 0 64px;
+}
+
+/**
+ * --------------------------------------------------------
+ * Sidebar
+ * --------------------------------------------------------
+ */
+
+.aside {
+  float: right;
+  overflow: hidden;
+  width: 240px;
+}
+
+.aside section {
+  margin: 0 0 24px;
+  overflow: hidden;
+  padding: 16px 16px 8px;
+
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+/**
+ * --------------------------------------------------------
+ * Skills
+ * --------------------------------------------------------
+ */
+
+#skills {
+  background: rgb(229, 235, 204);
+}
+
+#skills h2 {
+  display: none;
+}
+
+
+/**
+ * --------------------------------------------------------
+ * Links
+ * --------------------------------------------------------
+ */
+
+#links {
+  background: rgb(204, 222, 235);
+  font-size: 13px;
+}
+
+#links li {
+  margin: 0 0 4px;
+}
+
+/**
+ * --------------------------------------------------------
+ * About
+ * --------------------------------------------------------
+ */
+
+#about {
+  overflow: hidden;
+  padding: 0 48px 0 0;
+}
+
+
+/**
+ * --------------------------------------------------------
+ * Experience
+ * --------------------------------------------------------
+ */
+
+#experience {}
+
+.company {
+  margin: 0 0 48px;
+}
+
+h2 {
+  margin: 0 0 8px;
+  padding: 0;
+
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 12px 0 12px;
+  padding: 0;
+  font-size: 20px;
+}
+
+
+/**
+ * --------------------------------------------------------
+ * Position
+ * --------------------------------------------------------
+ */
+
+.position {
+}
+
+.position-header {
+}
+
+.position-details {
+  margin: 0 0 12px;
+
+  color: rgba(0,0,0, 0.75);
+}
+
+h4 {
+  margin: 0 0 4px;
+  padding: 0;
+
+  font-size: 18px;
+}
+
+.position p {
+  font-size: 12px;
+}
+
+.columns {
+  display: flex;
+  gap: 24px;
+}
+
+.column {
+  flex: 1 1 50%;
+}
